@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-border;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+
+        /* Blue Header */
+        header {
+            background-color: #004a99; /* Deep Blue */
+            height: 80px;
+            width: 100%;
+        }
+
+        /* Navigation Menu */
+        nav {
+            background-color: #f4f4f4;
+            border-bottom: 1px solid #ddd;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 0 20px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+        }
+
+        nav a:hover {
+            color: #004a99;
+        }
+
+        /* Main Content Area */
+        main {
+            flex: 1; /* Pushes footer to bottom */
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 2.5rem;
+        }
+
+        /* Image Styling */
+        .portfolio-image {
+            max-width: 800px;
+            width: 90%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            margin-top: 20px;
+        }
+
+        /* Yellow Footer */
+        footer {
+            background-color: #ffcc00; /* Bright Yellow */
+            height: 60px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+
+    <header></header>
+
+    <nav>
+        <a href="#">Content Architecture</a>
+        <a href="#">UX Writing</a>
+        <a href="#">API Documentation</a>
+        <a href="#">Travelogue</a>
+    </nav>
+
+    <main>
+        <h1>Welcome to my portfolio</h1>
+        
+        <img src="images/your-image-name.jpg" alt="Portfolio Image" class="portfolio-image">
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
+
+</body>
+</html>
